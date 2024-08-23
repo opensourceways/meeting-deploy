@@ -1,0 +1,39 @@
+DEBUG: true
+IS_DELETE_CONFIG: true
+MYSQL_TLS_PEM_PATH: "/vault/secrets/ca.pem"
+UWSGI_TLS_CRT_PATH: "/vault/secrets/server.crt"
+UWSGI_TLS_KEY_PATH: "/vault/secrets/server.key"
+
+TEMPLATE:
+  TEMPLATE_NOT_SUMMARY_NOT_RECORDING: "app_meeting_server/templates/template_without_summary_without_recordings.txt"
+  TEMPLATE_SUMMARY_NOT_RECORDING: "app_meeting_server/templates/template_with_summary_without_recordings.txt"
+  TEMPLATE_NOT_SUMMARY_RECORDING: "app_meeting_server/templates/template_without_summary_with_recordings.txt"
+  TEMPLATE_SUMMARY_RECORDING: "app_meeting_server/templates/template_with_summary_with_recordings.txt"
+  TEMPLATE_CANCEL_EMAIL: "app_meeting_server/templates/template_cancel_meeting.txt"
+
+API_PREFIX:
+  TENCENT_API_PREFIX: "https://api.meeting.qq.com"
+  WELINK_API_PREFIX: "https://api.meeting.huaweicloud.com"
+  ZOOM_API_PREFIX: "https://api.zoom.us"
+  BILIBILI_API_PREFIX: "https://www.bilibili.com/video/"
+
+COMMUNITY_SUPPORT:
+  - openEuler
+  - openGauss
+  - MindSpore
+
+COMMUNITY_PORTAL:
+  openEuler:
+    PORTAL_EN: "https://www.openeuler.org/en/"
+    PORTAL_ZH: "https://www.openeuler.org/zh/"
+  openGauss:
+    PORTAL_EN: "https://opengauss.org/en/"
+    PORTAL_ZH: "https://opengauss.org/zh/"
+  MindSpore:
+    PORTAL_EN: "https://www.mindspore.cn/en/"
+    PORTAL_ZH: "https://www.mindspore.cn/zh/"
+
+COMMUNITY_ETHERPAD:
+  openEuler: "https://etherpad.openeuler.org/"
+  openGauss: "https://etherpad.opengauss.org/"
+  MindSpore: "https://etherpad.mindspore.cn/"

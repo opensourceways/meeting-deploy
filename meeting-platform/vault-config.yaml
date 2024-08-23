@@ -1,0 +1,58 @@
+# it is the template of vault-config
+SECRET_KEY: ""
+QUERY_TOKEN: ""
+
+DB:
+  NAME: ""
+  USER: ""
+  PASSWORD: ""
+  HOST: ""
+  PORT: ""
+
+COMMUNITY_HOST:
+  openEuler:
+    ZOOM:
+      - HOST: ""
+        ACCOUNT: ""
+
+    WELINK:
+      - HOST: ""
+        ACCOUNT: ""
+        PWD:
+
+    TENCENT:
+      - HOST: ""
+        TENCENT_HOST_KEY: ""
+        TENCENT_APP_ID: ""
+        TENCENT_SDK_ID: ""
+        TENCENT_SECRET_ID: ""
+        TENCENT_SECRET_KEY: ""
+
+
+COMMUNITY_SMTP:
+  openEuler:
+    SMTP_MESSAGE_FROM: ""
+    SMTP_SERVER_HOST: ""
+    SMTP_SERVER_PORT: ""
+    SMTP_SERVER_USER: ""
+    SMTP_SERVER_PASS: ""
+
+
+COMMUNITY_KAFKA:
+  openEuler:
+    KAFKA_TOPIC: ""
+    KAFKA_CLIENT: ""
+
+COMMUNITY_OBS:
+  openEuler:
+    AK: ""
+    SK: ""
+    ENDPOINT: ""
+    BUCKET: ""
+    OBJECT: ""
+
+COMMUNITY_BILI:
+  openEuler:
+    BILI_UID: ""
+    BILI_JCT: ""
+    BILI_SESS_DATA: ""
