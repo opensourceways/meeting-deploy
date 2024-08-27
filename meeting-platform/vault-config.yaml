@@ -1,6 +1,5 @@
 # it is the template of vault-config
 SECRET_KEY: ""
-QUERY_TOKEN: ""
 
 DB:
   NAME: ""
@@ -8,6 +7,14 @@ DB:
   PASSWORD: ""
   HOST: ""
   PORT: ""
+
+COMMUNITY_ZOOM_OBS:
+  openEuler:
+    AK: ""
+    SK: ""
+    ENDPOINT: ""
+    BUCKET: ""
+    OBJECT: ""
 
 COMMUNITY_HOST:
   openEuler:
@@ -28,7 +35,6 @@ COMMUNITY_HOST:
         TENCENT_SECRET_ID: ""
         TENCENT_SECRET_KEY: ""
 
-
 COMMUNITY_SMTP:
   openEuler:
     SMTP_MESSAGE_FROM: ""
@@ -36,7 +42,6 @@ COMMUNITY_SMTP:
     SMTP_SERVER_PORT: ""
     SMTP_SERVER_USER: ""
     SMTP_SERVER_PASS: ""
-
 
 COMMUNITY_KAFKA:
   openEuler:
