@@ -54,7 +54,6 @@ COMMUNITY_OBS:
     SK: ""
     ENDPOINT: ""
     BUCKET: ""
-    OBJECT: ""
 
 COMMUNITY_BILI:
   openEuler:
